@@ -1,3 +1,5 @@
+Good formatting and good use of JavaDoc comments.
+
 Your getMin and getMax methods work just fine.
 
 The index methods, not so much!
@@ -7,6 +9,7 @@ There are two problems.
       getMinIndex gets this right.
   #2, neither function is updating pos correctly.  You ALWAYS set it to i,
       instead of only setting it to i if you have found a new max/min.
+      You need { braces } and it looks like you skipped them.
       
 And the biggest question of all:
   Why didn't you find this when you were testing the program?
