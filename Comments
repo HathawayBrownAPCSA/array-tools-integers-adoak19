@@ -1,0 +1,10 @@
+Looks very good and clean!  
+All straight-forward and direct code.  Except for one weird thing:
+  the getMaxIndex method returns one less than the correct index.
+Remember that you are starting at zero, and stopping when you get the index up to arrayCount,
+  so the -1 is already accounted for.
+(You did it correctly in getMinIndex).
+
+Question is: did you find the error while testing?
+
+Fix this and re-post.  8/10 for now, +1 when corrected.
