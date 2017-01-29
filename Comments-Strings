@@ -1,0 +1,9 @@
+Good start - not quite right yet.
+getMax and getMin work great.
+The Index methods, not quite yet.
+You correctly compare each string to max (or min) - but you don't update max (or min) when you find a new max (or min).
+You'll want to either (1) include a second line in the if statement (don't forget { braces } ) or 
+  (2) compare to arrayData[pos] instead of max (or min).
+  
+Score now, 8/10
+Max (not min) 9/10 when corrected.
